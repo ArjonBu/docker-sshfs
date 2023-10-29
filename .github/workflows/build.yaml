@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      image_name: pschmitt/sshfs
+      image_name: arjon/sshfs
       platforms: linux/amd64,linux/arm64
 
     steps:
